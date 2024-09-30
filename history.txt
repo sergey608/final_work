@@ -1,0 +1,386 @@
+    1  sudo apt install openss
+    2  sudo apt install openss-server
+    3  sudo apt install openssh-server
+    4  sudo apt update
+    5  sudo apt autoremove
+    6  clear
+    7  sudo apt mc
+    8  sudo apt install mc
+    9  mc
+   10  ip a
+   11  mc
+   12  sudo apt update
+   13  sudo apt gcc make perl openssh - server mc
+   14  sudo apt install gcc  make perl openssh - server mc
+   15  mc
+   16  sudo ss -ntlp
+   17  cd /home
+   18  sudo su
+   19  exit
+   20  systemctl status ssh
+   21  cd home
+   22  cd /home
+   23  cd
+   24  cd /
+   25  cd ~
+   26  ls -al
+   27  cd /proc
+   28  ls -al
+   29  cat cpuinfo
+   30  cd /dev
+   31  ls -al
+   32  cd /run
+   33  al -ls
+   34  ls -al
+   35  ls
+   36  ls -a
+   37  ls -al
+   38  ls --help
+   39  man
+   40  man ls
+   41  pwd
+   42  cd -/.config
+   43  cd
+   44  mkdir test
+   45  ls -al
+   46  mkdir 1/2/3/4/5
+   47  mkdir -p 1/2/3/4/5
+   48  ls -a
+   49  cd 1
+   50  cd 2
+   51  cd
+   52  cd ~/test
+   53  ll
+   54  cat > testfile
+   55  ll
+   56  cp test
+   57  cp testfile test2
+   58  ls
+   59  cd ..
+   60  ll
+   61  cp -r test test2 
+   62  ll
+   63  mv test test3
+   64  ll
+   65  cd test2
+   66  ll
+   67  rm test2
+   68  ll
+   69  cd
+   70  rm -rf test2
+   71  ll
+   72  cd test3
+   73  touch test
+   74  ll
+   75  cd
+   76  cd /home/db
+   77  cd/
+   78  cd home
+   79  /home
+   80  cd /home/db
+   81  cd ~
+   82  cd ..
+   83  ../..
+   84  ls -al
+   85  ll
+   86  cat ./.bash_logaut
+   87  cat ./.bash/logout
+   88  cd test3
+   89  ll
+   90  ll -al
+   91  cd test3/
+   92  mkdir test3
+   93  ll
+   94  cd ..
+   95  cd test3/
+   96  cd test3/
+   97  ll
+   98  mkdir test3
+   99  mkdir test4
+  100  mkdir test
+  101  cd /home
+  102  cd test
+  103  ll
+  104  ./
+  105  ll
+  106  mkdir test
+  107  sudo mkdir test
+  108  ll
+  109  cd.
+  110  cd..
+  111  ..
+  112  cd
+  113  sudo mkdir test3
+  114  cd test3
+  115  l
+  116  ll
+  117  ln in test2 test_ln
+  118  ln test2 test_ln
+  119  ll
+  120  ls -ali
+  121  cat >> test_ln
+  122  ln
+  123  ll
+  124  ln -s test2 test_lns
+  125  ln
+  126  ll
+  127  ls -ali
+  128  ln -s /home/db/test3/test2 test_lns_abs
+  129  ll
+  130  vim
+  131  sudo apt install vim
+  132  test3
+  133  vim test2
+  134  vim tiutor
+  135  cat /ect/passwd
+  136  cat /etc/passwd
+  137  sudo useradd testuser
+  138  cat /ect/passwd
+  139  sudo userdel testuser
+  140  sudo useradd -s /bin/bash -d /home/test -m test
+  141  cat /ect/passwd | grap test
+  142  cat /ect/passwd | grep test
+  143  sudo useradd -s /bin/bash -d /home tesst -m tesst
+  144  cat /ect/passwd | grep tesst
+  145  tail /etc/passwd
+  146  sudo adduser test2
+  147  cat /ect/passwd | grep tesst
+  148  cat /etc/passwd | grep tesst
+  149  cat /etc/passwd | grep test
+  150  cd /home
+  151  sudo su
+  152  passwd test
+  153  sudo passwd test
+  154  sudo cat /etc/shadow
+  155  sudo groupadd testg
+  156  cat /etc/group
+  157  sudo groupdel testg
+  158  cat /etc/group
+  159  sudo usermod -g wwwdata test2
+  160  id test2
+  161  sudo usermod -aG sambashare test2
+  162  cat /etc/passwd | grep test
+  163  sudo visudo
+  164  cd home
+  165  tail /etc/passwd
+  166  cd db
+  167  su
+  168  cd 
+  169  cd /home
+  170  cat /etc/sudoers
+  171  sudocat /etc/sudoers
+  172  sudo cat /etc/sudoers
+  173  sudo visudo
+  174  su test2
+  175  cd
+  176  cd test
+  177  ll
+  178  sudo chown db:wwdata test2
+  179  sudo chown db:wwwdata test2
+  180  id test2
+  181  ll
+  182  sudo chgrp db test2
+  183  ll
+  184  sudo chown wwwdata test2
+  185  sudo chown wwdata test2
+  186  sudo chown www-data test2
+  187  ll
+  188  cd ..
+  189  sudo chown -R db:www-data test
+  190  ll
+  191  cd test
+  192  ll
+  193  sudo chmod 755 test2
+  194  ll
+  195  sudo chmod u=rw,g=r,o=x test2
+  196  sudo chmod o*w test2
+  197  sudo chmod o+w test2
+  198  ll
+  199  sudo chmod u+s test4
+  200  ll
+  201  sudo chmod a+x  test4
+  202  ll
+  203  cd ..
+  204  ll
+  205  sudo chmod g+s
+  206  sudo chmod g+s test
+  207  ll
+  208  cd test
+  209  ll
+  210  cat > test_sgid
+  211  ll
+  212  id
+  213  cd ..
+  214  sudo chmod o+t test
+  215  ll
+  216  sudo chmod a+w test
+  217  ll
+  218  umsk
+  219  umask
+  220  touch test_umask
+  221  ls -al test_umask
+  222  umask 022
+  223  touch test_umask2
+  224  ls -al test_umask2
+  225  sudo apt update
+  226  apt search nginx
+  227  apt list nginx
+  228  apt install nginx
+  229  sudo apt install nginx
+  230  sudo apt remove nginx
+  231  sudo apt autoremove
+  232  ls -l
+  233  mkdir -p
+  234  mkdir
+  235  --help
+  236  mkdir --help
+  237  mkdir --parents
+  238  mkdir --p
+  239  mkdir -p /path/to/directory
+  240  sudo mkdir -p /path/to/directory
+  241  ls -al
+  242  vimtutor
+  243  mc
+  244  ps afx | less
+  245  -/ect/passwd
+  246  su-
+  247  sudo su -
+  248  cat/etc/passwd | 1
+  249  cat/etc/passwd |wc - 1
+  250  cat/etc/passwd |wc - l
+  251  su testuser
+  252  cat /ect/passwd
+  253  cat /etc/passwd
+  254  su - test
+  255  ip a
+  256  ip r
+  257  sudo su
+  258  sudo su
+  259  sudo apt install nginx
+  260  ps afx
+  261  systemcll status nginx
+  262  systemctl status nginx
+  263  curl localhost
+  264  sudo apt install curl
+  265  curl localhost
+  266  sudo su
+  267  mkdir ~/projects
+  268  cd ~/projects
+  269  git clone https://github.com/sergey608/final_work.git
+  270  cd final_work
+  271  echo -e"Собаки\nКошки\nХомяки" > Домашние_животные.txt
+  272  echo -e"Лошади\nВерблюды\nОслы" > Вьючные_животные.txt
+  273  cat Домашние_животные.txt Вьючные_животные.txt > Обьединенные_животные.txt
+  274  git add .
+  275  git commit -m"Создал два файла и обьединил"
+  276  cd
+  277  sudo apt update
+  278  sudo apt install git
+  279  git config --global user.name "sergey068"
+  280  git config --global user.name "Serfeji"
+  281  git config --global user.email "krotiksergeji1284941@gmail.com"
+  282  cd ~/projects
+  283  git clone https://github.com/sergey608/final_work.git
+  284  git config --global user.name "Sergeji"
+  285  git config --global user.email "krotiksergeji1284941@gmail.com"
+  286  git clone https://github.com/sergey608/final_work.git
+  287  cd final_work
+  288  cat final_work
+  289  ls
+  290  git add .
+  291  git status
+  292  git checkout -b development
+  293  git checkout development
+  294  git commint -m "создание ветки"
+  295  git commit -m "создание ветки"
+  296  git push origin development
+  297  git status
+  298  git push -u origin development
+  299  git checkout project
+  300  git branch
+  301  nano Домашние_животные.txt
+  302  git add .
+  303  git commit "vetka"
+  304  git commit -m "vetka"
+  305  git remote add origin https://github.com/sergey608/final_work.git
+  306  git push -u origin development
+  307  mv Обьединенные_животные.txt Друзья_человека.txt
+  308  mkdir Мои_друзья
+  309  mv Новые_друзья.txt Мои_друзья/
+  310  mv Друзья_человека.txt Мои друзья/
+  311  sudo apt update
+  312  sudo apt install wget
+  313  wget https://dev.msql-apt-config_0.8.17-1_all.deb
+  314  sudo nano /ect/resolv.conf
+  315  sudo nano /etc/resolv.conf
+  316  sudo apt update
+  317  wget https://dev.msql-apt-config_0.8.17-1_all.deb
+  318  sudo nano /etc/resolv.conf
+  319  sudo nano /etc/hosts
+  320  wget https://dev.msql.com/get/mysql-apt-config_0.8.26-1_all.deb
+  321  sudo apt update
+  322  sudo apt install wget
+  323  wget --no-check-certificate https://dev.mysql.com/get/mysql-apt-config_0.8.26-1_all.deb
+  324  sudo dpkg -i mysql-apt-config_0.8.26-1_all.deb
+  325  sudo apt update
+  326  sudo apt -key adv --keyserver keyserver.ubuntu.com --recv-keys B7B3B788A8D3785C
+  327  sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys B7B3B788A8D3785C
+  328  sudo apt update
+  329  sudo apt upgrade
+  330  wget https://repo.mysql.com/RPM-GPG-KEY-mysql-2022
+  331  sudo ap-key add RPM-GPG-KEY-mysql-2022
+  332  sudo apt-key add RPM-GPG-KEY-mysql-2022
+  333  sudo nano /etc/apt/sources.list.d/mysql.list
+  334  sudo apt update
+  335  sudo nano /etc/apt/sources.list.d/mysql.list
+  336  sudo apt update
+  337  sudo nano /etc/apt/sources.list.d/mysql.list
+  338  sudo apt update
+  339  sudo nano /etc/apt/sources.list.d/mysql.list
+  340  ls /etc/apt/sources.list.d/
+  341  sudo nano /etc/apt/sources.list
+  342  sudo nano /etc/apt/sources.list.d/mysql.list
+  343  sudo apt clean
+  344  sudo apt update
+  345  ls /etc/apt/sources.list.d/
+  346  sudo rm  /etc/apt/sources.list.d/mysql.list
+  347  sudo nano /etc/apt/sources.list.d/mysql.list
+  348  sudo apt clean
+  349  sudo apt update
+  350  sudo nano /etc/apt/sources.list.d/mysql.list
+  351  sudo apt install wget lsb-relase gnupg
+  352  sudo clean
+  353  sudo apt clean
+  354  sudo apt update
+  355  sudo rm  /etc/apt/sources.list.d/mysql.list
+  356  sudo apt update
+  357  sudo apt install wget lsb-release gnupg
+  358  wget https://dev.mysql.com/get/mysql-apt-config_0.8.22-1_all.deb
+  359  sudo dpkg -i mysql-apt-config_0.8.22-1_all.deb
+  360  sudo apt update
+  361  sudo apt install mysql-server
+  362  sudo systemctl status mysql
+  363  sudo dpkg -r acl
+  364  sudo dpkg -r adduser
+  365  sudo dpkg -r accountsservice
+  366  sudo apt install -f
+  367  apt-chache rdepends adduser
+  368  apt-cache rdepends adduser
+  369  sudo apt remove --purge package_name
+  370  cd ~/Downloads
+  371  ~/Загрузки
+  372  pwd
+  373  ls
+  374  sudo dpkg -i example-package.deb
+  375  sudo dpkg -i README.deb
+  376  sudo dpkg -i README.md.deb
+  377  sudo dpkg -i README.md
+  378  cd projects
+  379  cd final_work
+  380  sudo apt update
+  381  sudo apt installcurl
+  382  sudo apt install curl
+  383  sudo dpkg -r curl
+  384  dpkg -l | grep curl
+  385  history
+  386  history > history.txt
